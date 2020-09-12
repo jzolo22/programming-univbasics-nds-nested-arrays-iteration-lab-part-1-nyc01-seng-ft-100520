@@ -8,7 +8,9 @@ even_array = []
 while row_count < src.length do
   column_count = 0
   while column_count < src[row_count].length do
-    if src[row_count][column_count].is_even?
+    if src[row_count][column_count] % 2 == 0 do
+      
+    end
     column_count += 1
   end
   row_count += 1
