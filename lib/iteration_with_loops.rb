@@ -15,5 +15,5 @@ while row_count < src.length do
   end
   row_count += 1
 end
-even_array
+puts even_array
 end
